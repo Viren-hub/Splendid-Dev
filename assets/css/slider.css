@@ -90,7 +90,7 @@
 
 @keyframes slide {
     0% {
-        transform: scale(0.9);
+        transform: scale(1.1);
     }
     100% {
         transform: scale(1);
@@ -189,30 +189,46 @@
     background-color: #21252bb0;
 }
 
-.sticky {
+.note {
+    width: 16em;
+    min-height: 14em;
+    background: #ffc;
     position: relative;
-    display: block;
-    width: 320px;
-    height: 210px;
-    font-family: "Comic Sans MS";
-    background-color: #ffc;
-    padding: 15px 15px;
-    transform: rotateZ(-10deg);
-    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
-    margin-right: 85%;
-    text-align: center;
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.8));
+    transform: rotate(-7deg) translateX(-50%);
+    left: 10%;
+    margin-bottom: 500px;
 }
 
-.sticky.angled:after {
-    border-color: #a8ad63 #ffffff;
-    background: transparent;
-    border-width: 50px 50px 0 0;
-    border-style: solid;
+.note:before {
+    content: "";
     position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
+    right: 2em;
+    bottom: -2em;
+    left: 0;
+    border: 1em solid #ffc;
+    z-index: -1;
+}
+
+.note:after {
+    content: "";
+    position: absolute;
     right: 0;
-    bottom: 0;
-    content: ' ';
+    bottom: -2em;
+    border-width: 2em 2em 0 0;
+    border-style: solid;
+    border-color: #d4b376 transparent;
+    filter: drop-shadow(-4px 5px 9px rgba(0, 0, 0, 0.5));
+}
+
+h6 {
+    font-family: 'comic sans ms';
+    font-size: x-large;
+    text-align: center;
+    margin: 20% 0.8em 0 0.8em;
+    padding-top: 40%;
+    border: 0;
+    letter-spacing: -1px;
+    outline-style: none;
+    justify-content: center;
 }
