@@ -4,7 +4,8 @@
     /**
      * Easy selector helper function
      */
-    const select = (el, all = false) => {
+
+     const select = (el, all = false) => {
         el = el.trim()
         if (all) {
             return [...document.querySelectorAll(el)]
@@ -291,5 +292,8 @@
     window.addEventListener('load', () => {
         aos_init();
     });
-
+    $(".nav .nav-link").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).addClass("active");
+     });
 })();
