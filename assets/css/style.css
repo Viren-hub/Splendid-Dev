@@ -185,11 +185,7 @@ section {
 }
 
 .header.header-scrolled {
-<<<<<<< HEAD
-    background: #ffc;
-=======
-    background:rgb(37 55 86);
->>>>>>> 895d5b5fb1004f5be2284cd9696995b8a516b18e
+    background: rgb(37 55 86);
     padding: 15px 0;
     color: #013289;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
@@ -268,7 +264,6 @@ section {
 .navbar li:hover>a {
     color: #5969f3;
     transform: scale(1.1);
-
 }
 
 .navbar .getstarted {
@@ -527,8 +522,8 @@ section {
 .box {
     position: relative;
     display: block;
-    width: 280px;
-    height: 200px;
+    width: 320px;
+    height: 210px;
     font-family: "Comic Sans MS";
     background-color: #ffc;
     padding: 15px 15px;
@@ -537,7 +532,7 @@ section {
     margin-right: 85%;
 }
 
-.box.angled:after {
+.sticky.angled:after {
     border-color: #a8ad63 #ffffff;
     background: transparent;
     border-width: 50px 50px 0 0;
@@ -646,7 +641,6 @@ section {
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
-<<<<<<< HEAD
     color: rgb(0, 0, 0);
     background-color: #ffff;
 }
@@ -656,10 +650,6 @@ section {
     color: #fff;
     text-align: center;
     font-weight: 700;
-=======
-    color:black;
-    background-color: #ffc;
->>>>>>> 895d5b5fb1004f5be2284cd9696995b8a516b18e
 }
 
 .services .service-box .icon {
@@ -674,11 +664,7 @@ section {
 }
 
 .services .service-box h3 {
-<<<<<<< HEAD
     color: #000000;
-=======
-    color: #012970;
->>>>>>> 895d5b5fb1004f5be2284cd9696995b8a516b18e
     font-weight: 700;
 }
 
@@ -703,7 +689,6 @@ section {
 }
 
 .services .service-box.blue .read-more {
-<<<<<<< HEAD
     color: #4154f1;
 }
 
@@ -713,108 +698,6 @@ section {
 
 .services .service-box.green .read-more {
     color: #4154f1;
-=======
-    color: Red;
-}
-
-.services .service-box.blue:hover {
-    background: #f68c09;
-}
-
-.services .service-box.orange {
-    border-bottom: 3px solid #f68c09;
-}
-
-.services .service-box.orange .icon {
-    color: #f68c09;
-    background: #fde3c4;
-}
-
-.services .service-box.orange .read-more {
-    color: Red;
-}
-
-.services .service-box.orange:hover {
-    background: #f68c09;
-}
-
-.services .service-box.green {
-    border-bottom: 3px solid #f68c09;
-}
-
-.services .service-box.green .icon {
-    color: #08da4e;
-    background: #cffddf;
-}
-
-.services .service-box.green .read-more {
-    color: Red;
-}
-
-.services .service-box.green:hover {
-    background: #f68c09;
-}
-
-.services .service-box.red {
-    border-bottom: 3px solid #e9222c;
-}
-
-.services .service-box.red .icon {
-    color: #e9222c;
-    background: #fef7f8;
-}
-
-.services .service-box.red .read-more {
-    color: #e9222c;
-}
-
-.services .service-box.red:hover {
-    background: #e9222c;
-}
-
-.services .service-box.purple {
-    border-bottom: 3px solid #b50edf;
-}
-
-.services .service-box.purple .icon {
-    color: #b50edf;
-    background: #f8e4fd;
-}
-
-.services .service-box.purple .read-more {
-    color: #b50edf;
-}
-
-.services .service-box.purple:hover {
-    background: #b50edf;
-}
-
-.services .service-box.pink {
-    border-bottom: 3px solid #f51f9c;
-}
-
-.services .service-box.pink .icon {
-    color: #f51f9c;
-    background: #feecf7;
-}
-
-.services .service-box.pink .read-more {
-    color: #f51f9c;
-}
-
-.services .service-box.pink:hover {
-    background: #f51f9c;
-}
-
-.services .service-box:hover h3,
-.services .service-box:hover p,
-.services .service-box:hover .read-more {
-    color: #fff;
->>>>>>> 895d5b5fb1004f5be2284cd9696995b8a516b18e
-}
-
-.service-box-hover:hover {
-    background-color: red;
 }
 
 
