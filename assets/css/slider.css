@@ -70,8 +70,7 @@
 }
 
 .home .slide {
-    /* position: absolute; */
-    margin-top: 10px;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
