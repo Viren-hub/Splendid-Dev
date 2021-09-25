@@ -70,6 +70,7 @@
 }
 
 .home .slide {
+    margin-top: 70px;
     position: absolute;
     left: 0;
     top: 0;
@@ -163,6 +164,15 @@
         transform: translateX(0px);
     }
 }
+
+@media (max-width: 768px) {
+    .home .slide {
+        background-size: cover;
+    }
+}
+
+
+/*============================ Home page indicator========================*/
 
 .home .indicator {
     position: absolute;
