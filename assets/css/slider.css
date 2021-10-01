@@ -168,6 +168,8 @@
 @media (max-width: 768px) {
     .home .slide {
         background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
     }
 }
 
