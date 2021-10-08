@@ -329,7 +329,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #5969f3;
+    color: #ffffff;
     transform: scale(1.1);
 }
 
@@ -572,12 +572,7 @@ section {
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
-}
-
-.about .btn-read-more i {
-    margin-left: 5px;
-    font-size: 18px;
-    transition: 0.3s;
+    padding: 5px;
 }
 
 .about .btn-read-more:hover i {
@@ -650,9 +645,19 @@ section {
 }
 
 .services h2 {
-    color: #4154f1;
+    color: #000000;
     text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.services h3 {
+    text-align: center;
+    font-size: 14px;
     font-weight: 700;
+    color: #013289;
+    text-transform: uppercase;
+    padding-bottom: 20px
 }
 
 .services .service-box .icon {
@@ -691,20 +696,12 @@ section {
     background: #048ac9;
 }
 
-.services .service-box.blue .read-more {
-    color: #4154f1;
-}
-
-.services .service-box.orange .read-more {
-    color: #4154f1;
-}
-
-.services .service-box.green .read-more {
+.services .read-more {
     color: #4154f1;
 }
 
 .service-box:hover {
-    background-color: #ffc;
+    background-color: rgba(13, 111, 238, 0.1);
 }
 
 
@@ -713,9 +710,12 @@ section {
 --------------------------------------------------------------*/
 
 .contact h3 {
-    color: #4154f1;
     text-align: center;
+    font-size: 14px;
     font-weight: 700;
+    color: #013289;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .contact .info-box {
