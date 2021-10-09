@@ -128,7 +128,7 @@ section {
     right: 15px;
     bottom: 15px;
     z-index: 99999;
-    background: #4154f1;
+    background: #013289;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -708,6 +708,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.sendBtn {
+    background: #013289;
+    color: white;
+}
 
 .contact h3 {
     text-align: center;
